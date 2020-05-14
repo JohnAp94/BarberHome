@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+header {
+    background-color: #011017;
+    padding: 0 15px 0 0;
+}
+
+header .logo {
+    width: 100px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    color: white;
+}
+
+.header-container a {
+    color: white;
+
+}
+
+/* -----------------------header------------------------------ */
+
+.pedido-hero-container {
+    height: 80vh;
+    background-image: url('https://i.imgur.com/wb9nOcG.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.pedido-hero-main {
+    text-align: center;
+}
+
+.pedido-hero-main h2 {
+    font-size: 2em;
+    color: white;
+    background: #0000007a;
+    margin: 20px;
+    padding: 10px;
+}
+
+.pedido-hero-main img {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 6px 10px white;
+    max-width: 100px;
+}
+
+.pedido-hero-main img:hover {
+    box-shadow: 0 6px 10px greenyellow;
+}
+
+/* ---------------------hero------------------------------- */
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    height: auto;
+    background-color: #011017;
+    color: white;
+    padding: 10px 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+/* --------------------------footer----------------------------------- */
+
+.about-title {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 30px;
+    text-align: center;
+}
+
+/* ----------------En Constrcción Zone--------------------------- */
+
+.enConstruccion {
+    padding: 20px;
+    max-width: 1024px;
+    margin: auto;
+    position: relative;
+}
+
+.enConstruccion img {
+    width: 100%;
+    box-shadow: 0px 6px 80px #92c53d;
+    border-radius: 10px;
+}
+
+.title-construccion {
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------------En Constrcción Zone--------------------------- */
